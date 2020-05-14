@@ -1,0 +1,29 @@
+:root {
+ font-size: 10px;
+}
+
+.parent{
+	background: tomato;
+	width: 50vw;
+	height: 70vh;
+	font-size: 20px;
+}
+.child{
+	background: blue;
+	width: 60vw;
+	height: 50vh;
+	font-size: 3rem;
+}
+.secondchild{
+	background: khaki;
+	width: 60vmax;
+	height: 2vmax;
+}
+
+@media screen and (min-width: 500px){
+	.secondchild{
+		background: white;
+		font-family: "Roboto" ;
+		color: green;
+	}
+}
